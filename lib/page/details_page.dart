@@ -49,7 +49,7 @@ class _DetailPageState extends State<DetailPage> {
                         fontSize: 34,
                       ),
                     ),
-                    Text('\$${widget.food.price}',
+                    Text('₹${widget.food.price}',
                         style: const TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,

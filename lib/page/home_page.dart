@@ -268,7 +268,7 @@ class _HomePageState extends State<HomePage> {
                     Padding(
                       padding: const EdgeInsets.all(16),
                       child: Text(
-                        '\$${food.price}',
+                        '₹${food.price}',
                         style: const TextStyle(
                           color: Colors.black,
                           fontWeight: FontWeight.bold,
